@@ -1,0 +1,72 @@
+<div ng-include="'components/navbar/navbar.html'"></div>
+
+<div class="container perfil">
+  <div class="col-md-2">
+    <i class="glyphicon glyphicon-chevron-left btn-back"></i>
+  </div>
+  <div class="col-md-8">
+    <!--Foto perfil-->
+    <div class="row">
+      <div class="col-md-12 foto-boton">
+        <img src="assets/images/perfil1.png" class="img-responsive borde-verde" alt="foto-perfil">
+      </div>
+    </div>
+    <!--Estrellas y ayudas-->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="stars-profile">
+          <rating ng-model="rate" max="max" readonly="isReadonly" on-hover="hoveringOver(value)" on-leave="overStar = null"></rating>
+          <p>15 personas ayudadas</p>
+        </div>
+      </div>
+    </div>
+
+    <!--Info-->
+    <div class="col-md-10 col-md-offset-1">
+      <div class="campos-user">
+        <span class="name">Carlos Sánchez</span>
+        <span>CarlosSanchez12</span>
+      </div>
+      <div class="campos-user">
+        <span class="glyphicon glyphicon-map-marker"></span>
+        <span>Sant Martí, Barcelona, España</span>
+      </div>
+      <div class="campos-user">
+        <span class="tag1">Castellano</span>
+        <span class="tag2">Catalán</span>
+      </div>
+      <div class="campos-user">
+        <span class="descrip-user">Hola, soy Carlos, me encanta el rape, levantarme tempranito y hacer la casa.</span>
+      </div>
+      <br>
+      <br>
+      <div class="campos-user">
+        <span>Mis botones</span>
+        <br>
+        <br>
+        <br>
+      </div>
+    </div>
+
+  </div>
+  <div class="col-md-2">
+    <a ui-sref="profile2">
+      <div class="glyphicon glyphicon-chevron-right btn-next"></div>
+    </a>
+    <a>
+      <div class="glyphicon glyphicon-pencil btn-pencil"></div>
+    </a>
+  </div>
+
+</div>
+
+<!--Footer-->
+<footer class="footer">
+  <div class="container">
+    <p>Watchoutfreedom |
+      <a href="https://twitter.com/HelpButtons">@HelpButtons</a> |
+      <a href="">Contact</a>
+    </p>
+  </div>
+</div>
+</footer>

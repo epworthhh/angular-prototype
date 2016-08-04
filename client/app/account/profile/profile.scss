@@ -1,0 +1,44 @@
+
+.perfil { border-radius: 15px; margin: 30px auto; padding-top: 20px;}
+.perfil img { background-color: #3ACA9A; border-radius: 30px;}
+
+.stars-profile { margin-top: 20px; text-align: center;}
+
+.campos-user { margin: 10px auto; text-align: center; font-size: 16px; padding: 20px;
+               border-radius: 30px; background-color: #FFFFFF;}
+
+.name { width: 50%; color: #FFFFFF; padding: 10px; margin-right: 5px; border-radius: 30px;
+        background-color: #989797;}
+
+.tag1 { color: #FFFFFF;padding: 10px;border-radius: 30px;background-color: #9B2B5E;}
+.tag2 { color: #FFFFFF;padding: 10px;border-radius: 30px;background-color: #2FAB20;}
+
+.descrip-user { padding-left: 8px; padding-right: 8px;}
+
+.btn-next { padding: 15px; border-radius: 30px; background-color: #FFFFFF; float: right;
+            margin-top: 240px; color: #000;}
+.btn-back { padding: 15px; border-radius: 30px; background-color: #FFFFFF; float: left;
+            margin-top: 240px; color: #000;}
+.btn-back2 { padding: 15px; border-radius: 30px; background-color: #FFFFFF; float: left;
+              margin-top: 240px; color: #000;}
+.btn-pencil { padding: 15px; border-radius: 30px; background-color: #FFFFFF; float: right;
+              margin-top: 500px; color: #000;}
+
+@media screen and (max-width: 767px) {}
+
+//help
+.help-cont { background-color: #FFF; text-align: center; margin: 140px auto; border-radius: 30px;
+             padding: 20px 0; font-size: 16px;}
+
+.tags-help { margin: 10px auto; padding: 30px;}
+
+.clr-verde { color: #FFFFFF; background-color: #39A935; border-radius: 15px;
+             padding: 8px 10px; margin-left: 2px; margin-right: 2px;}
+.clr-azul { color: #FFFFFF; background-color: #35A8E0; border-radius: 15px;
+            padding: 8px 10px; margin-left: 2px; margin-right: 2px;}
+.clr-morado { color: #FFFFFF; background-color: #6100FF; border-radius: 15px;
+              padding: 8px 10px; margin-left: 2px; margin-right: 2px;}
+
+.num-help { margin-top: -35px; font-size: 14px;}
+
+.each-num { margin: 0 20px; text-align: center;}

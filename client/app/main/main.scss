@@ -1,0 +1,61 @@
+body {background-color: #F7F7F7;}
+
+.bg{ background: url('/assets/images/fondo-home.png') no-repeat  center fixed;
+     -webkit-background-size: cover; -moz-background-size: cover;
+     -o-background-size: cover; background-size: cover;}
+
+.logo { text-align: center;}
+.logo img { padding-top: 40px; padding-bottom: 30px; display: inline-block;}
+.logo p { font-size: 17px;}
+
+.intro { text-align: center; background-color: #07A790; border-radius: 30px; color: #FFFFFF;
+         padding: 30px 0; width: 90%; margin: 40px auto; position:relative;}
+.intro p { font-size: 18px; font-weight: 400;}
+
+.a-white { color: #FFFFFF;}
+
+.bot-intro { width: 60%; margin: 0 auto; padding-bottom: 10px; padding-top: 25px;}
+
+.btn-index { background-color: #FFF; color: #000; border-radius: 20px; padding: 10px;
+             margin: 10px auto; font-size: 16px; font-weight: 700; width: 60%;}
+
+.text-srch-btn { padding-bottom: 10px;}
+
+.btn-help {padding-top: 50px; padding-bottom: 35px; text-align: center;}
+
+.footer { text-align: center; padding: 20px; color: #000000;}
+.footer a { color: #3ACA9A;}
+
+.navbar { margin-bottom: 0;}
+
+.btnleft { position: absolute; left:0; width:45px; margin-left: -45px; background: #07A790;
+           word-wrap: break-word; padding: 15px; border-radius: 20px 0 0 20px;}
+.btnbottom { bottom:40px;}
+
+
+// info
+.info { background-color: #FFF; margin: 16px auto; padding-bottom: 20px; border-radius: 0 0 20px 20px;
+        box-shadow: 0 2px 4px rgba(0,0,0,.1); -moz-box-sizing: border-box; box-sizing: border-box;}
+.info .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus { background-color: #FFF;}
+.info .tabset .nav-tabs-justified li a { border-radius: 20px 20px 0 0;}
+.info .tabset .nav-tabs-justified { border-radius: 0;}
+.info .tabset { margin-top: 0;}
+.info .nav-tabs-justified > .active > a { border: 0;}
+
+.tittle-newbtn { text-align: center; padding-bottom: 20px;}
+
+.info-newbtn { padding: 0 15px;}
+
+.text-center { text-align: center; padding-top: 20px; font-size: 18px;}
+
+.persona1 { padding-top: 80px;}
+.persona2 { padding-top: 30px;}
+.persona3 { padding-top: 15px;}
+
+.img-ong { width: 90%; margin: 20px auto;}
+.img-ong2 { width: 95%; padding-top: 50px; margin: 10px auto;}
+
+.bottom-ong { padding-top: 30px;}
+.bottom-ong a { color: #FFF; font-weight: 400;}
+.btn-red { background-color: #DA2828; padding: 10px;}
+.btn-red:hover, .btn-red:focus, .btn-red:focus { background-color: #DF3838; border-color:#CB3827; color: #FFF;}

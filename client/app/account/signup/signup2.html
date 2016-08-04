@@ -1,0 +1,66 @@
+<div ng-include="'components/navbar/navbar.html'"></div>
+
+<div class="container env-reg">
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="cabeceraReg">
+        <h2>Únete a <b>Helpbuttons.org</b>
+        </h2>
+        <h3>¡ Compartir es vivir !</h3>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="campos-regis">
+      <form class="form" name="form" ng-submit="register(form)" novalidate>
+
+        <div class="col-sm-12">
+
+          <div class="registro-bg">
+            <div class="registro">
+
+              <div class="form-group">
+                <input type="" name="lugar" class="form-control field-button" placeholder="Lugar" required/>
+              </div>
+
+              <div class="form-group">
+                <input type="" name="idiomas" class="form-control field-button" placeholder="Idiomas" required/>
+              </div>
+
+              <div class="form-group">
+                <textarea name="descripcion" class="form-control field-button" rows="3" placeholder="Descripción de ti" required/>
+              </div>
+
+              <div class="form-group">
+                <textarea rows="3" name="palabrasClave" class="form-control field-button" placeholder="Palabras clave permanentes" tooltip="Ej: Colectivo que preste o necesite ayuda específica." tooltip-trigger="focus" tooltip-placement="right" required/>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <button class="btn btn-inverse btn-lg btn-login btn-reg" ui-sref="signup3">
+              Registrarme
+            </button>
+          </div>
+        </div>
+
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<!--Footer-->
+<footer class="footer">
+  <div class="container">
+    <p>Watchoutfreedom |
+      <a href="https://twitter.com/HelpButtons">@HelpButtons</a> |
+      <a href="">Contact</a>
+    </p>
+  </div>
+</div>
+</footer>
