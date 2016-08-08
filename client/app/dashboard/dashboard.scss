@@ -1,0 +1,52 @@
+//SCSS Dashboard
+.button { margin-top: 15px; margin-bottom: 15px;}
+
+.dashboard { margin-top: 15px; margin-bottom: 30px; font-size: 16px;}
+
+
+.div-btn { border-radius: 6px; border: 1px solid rgba(0,0,0,0.1); padding: 15px;
+           background-color: #E4E4E4; margin: 0 auto;}
+.div-btn a { color: #000000;}
+.div-btn a:hover { text-decoration: none;}
+
+.estrellas { padding-left: 5px;}
+
+.der-boton { float: right;}
+.izq-boton { float: left;}
+
+.foto-boton { padding: 10px 0;}
+.foto-boton img { margin: 0 auto; border-radius: 200px; -moz-border-radius: 200px;
+                  -webkit-border-radius: 200px; width: 140px;}
+
+.etiq-boton { margin-top: 18px; text-align: center;}
+
+.clr-busq { color: #FFFFFF; background-color: #F45C4B; border-radius: 15px;
+            padding: 8px 10px; margin-left: 3px; margin-right: 3px;}
+
+.clr-ofrece { color: #FFFFFF; background-color: #3ACA9A; border-radius: 15px;
+              padding: 8px 10px; margin-left: 3px; margin-right: 3px;}
+
+.espacios-tags { padding-bottom: 20px; }
+
+.borde-verde { border: 6px solid #3ACA9A; }
+
+.borde-rojo { border: 6px solid #F45C4B; }
+
+.borde-amarillo { border: 6px solid #C9D840; }
+
+@media screen and (max-width: 750px) {
+    .content-logged {
+        padding-bottom: 50px;
+    }
+}
+
+
+
+/*.content-logged {
+  background: url('/assets/images/prueba.png') no-repeat fixed center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute; min-height: 94%;min-width:100%;
+}*/

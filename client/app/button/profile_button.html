@@ -1,0 +1,49 @@
+<div ng-include="'components/navbar/navbar.html'"></div>
+
+<div class="container perfil" ng-controller="ButtonCtrl">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="col-md-12 foto-boton">
+        <img src="assets/images/perfil1.png" class="img-responsive borde-verde" alt="foto-perfil"/>
+        <div class="stars-profile">
+          <rating ng-model="rate" max="max" readonly="isReadonly" on-hover="hoveringOver(value)" on-leave="overStar = null"></rating>
+        </div>
+      </div>
+
+      <div class="col-md-10 col-md-offset-1">
+        <div class="campos-user">
+          <span class="name">Carlos Sánchez</span> ofrece :
+        </div>
+        <div class="campos-user">
+          <span class="clr-azul">Cartas</span>
+          <span class="clr-verde">Mus</span></br>
+          <div class="num-help2">
+            <span class="each-num">10 <img class="icon-person" src="/assets/images/icon_person2.png"/></span>
+            <span class="each-num">20 <img class="icon-person" src="/assets/images/icon_person2.png"/></span>
+          </div>
+          </br>
+          <p>Me gustaría encontrar gente para jugar al mus por las tardes entre semana. Ofrezco mi casa.</p>
+          </br>
+          </br>
+          <div class="bot-pBtn">
+            <span class="izq-boton">Entre semana</span>
+            <span class="der-boton"><span class="glyphicon glyphicon-map-marker"></span> 1 km de ti</span>
+          </div>
+        </div>
+        <div class="campos-user">
+          <p>Pulsado 20 veces</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <p>Watchoutfreedom |
+      <a href="https://twitter.com/HelpButtons">@HelpButtons</a> |
+      <a href="">Contact</a>
+    </p>
+  </div>
+</div>
+</footer>

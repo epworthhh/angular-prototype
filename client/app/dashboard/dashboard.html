@@ -1,0 +1,53 @@
+<div ng-include="'components/navbar/navbar.html'"></div>
+
+<div class="container dashboard">
+  <div class="row">
+    <div class="col-sm-4 button" ng-repeat="button in buttons">
+      <div class="div-btn">
+        <p>
+          <a href="/profile"><b>{{button.nombre}}</b></a>
+          <span class="estrellas">
+            <rating ng-model="rate" max="max" readonly="isReadonly" on-hover="hoveringOver(value)" on-leave="overStar = null"></rating>
+          </span>
+          <span class="der-boton">{{button.tipo}}</span>
+        </p>
+        <a ui-sref="profile-button">
+          <div class="foto-boton" ng-if="button.tipo === 'Busca'">
+            <img src="{{button.img}}" class="img-responsive borde-rojo" alt="foto-btn">
+          </div>
+        </a>
+        <a ui-sref="profile-button">
+          <div class="foto-boton" ng-if="button.tipo === 'Ofrece'">
+            <img src="{{button.img}}" class="img-responsive borde-verde" alt="foto-btn">
+          </div>
+        </a>
+        <a ui-sref="profile-button">
+          <div class="foto-boton" ng-if="button.tipo === 'Intercambia'">
+            <img src="{{button.img}}" class="img-responsive borde-amarillo" alt="foto-btn">
+          </div>
+        </a>
+        <div class="etiq-boton">
+          <div class="col-sm-12 espacios-tags">
+            <span class="clr-busq" ng-repeat="busca in button.busca">{{busca}}</span>
+          </div>
+          <div class="col-sm-12 espacios-tags">
+            <span class="clr-ofrece" ng-repeat="ofrece in button.ofrece">{{ofrece}}</span>
+          </div>
+          <br>
+        </div>
+        <span ng-repeat="fecha in button.fecha">{{fecha}} </span>
+        <span class="der-boton">{{button.distancia}}</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <p>Watchoutfreedom |
+      <a href="https://twitter.com/HelpButtons">@HelpButtons</a> |
+      <a href="">Contact</a>
+    </p>
+  </div>
+</div>
+</footer>

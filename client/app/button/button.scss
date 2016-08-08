@@ -1,0 +1,49 @@
+.new-btn  { }
+.new-btn h2 { text-align:center; margin:40px 0;}
+
+.icon-down { float: left;  padding-left: 5px;  padding-top: 3px;}
+
+.img-btn { margin-top: 60px; margin-bottom: 40px;}
+.img-btn img { background-color: #ccc; border-radius:200px; width: 140px;}
+.img-btn p { text-align: center; font-size: 16px;}
+
+.tabset { margin: 10px auto; }
+.tabset a { color: #000000;}
+.tabset .nav-tabs-justified { background-color: #D8D8D8; border-radius: 50px;}
+
+
+.date-pick { margin-top: 10px; }
+
+textarea { resize: none;}
+
+.nav-tabs-justified { margin-bottom: 20px;}
+.nav-tabs-justified li  a,
+.nav-tabs.nav-justified li a { border-radius: 0; margin-bottom:0; padding: 15px 0 !important; font-size: 14px; color :#555;  border-bottom:0;
+                               border-bottom-color: #ddd !important;}
+.tabset .nav-tabs-justified li:first-child a { border-radius: 50px 0 0 50px; }
+.tabset .nav-tabs-justified li:last-child a { border-radius: 0 50px 50px 0; }
+.tabset .nav-tabs-justified .active { font-weight: 700}
+
+.field-button { background:#fff; font-size:14px; padding: 15px 20px; height: inherit; margin-top:20px; }
+input.field-button { border-radius: 50px; }
+textarea.field-button { border-radius: 30px; margin-bottom:20px; }
+
+
+.btn { padding: 10px; border-radius: 50px; font-size: 16px;}
+.btn i { margin-right: 5px; }
+
+
+.botones { text-align:center; }
+.botones .btn{ text-align:center; margin: 0 5px;}
+
+@media screen and (max-width: 767px) {
+  .tabset .nav-tabs-justified li:first-child a { border-radius: 50px 50px 0 0 ; }
+  .tabset .nav-tabs-justified li:last-child a { border-radius: 0 0 50px 50px; }
+}
+
+//profile
+.profile-btn { margin: 30px auto; padding-bottom: 20px;}
+
+.num-help2 { padding-top: 10px;}
+
+.bot-pBtn {padding-bottom: 20px;}

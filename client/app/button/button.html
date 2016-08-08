@@ -1,0 +1,64 @@
+<div ng-include="'components/navbar/navbar.html'"></div>
+
+<div class="container new-btn" ng-controller="ButtonCtrl">
+
+  <h2>Crear botón</h2>
+
+  <div class="row">
+
+    <div class="col-sm-8 col-sm-offset-2  col-md-6 col-md-offset-3">
+      <form class="form" name="formBtn">
+
+        <tabset justified="true" class="tabset">
+          <tab heading="Busco">
+            <input type="text" class="form-control field-button" placeholder="¿Qué buscas? (Palabras Clave)"> </input>
+          </tab>
+          <tab heading="Intercambio">
+            <input type="text" class="form-control field-button" placeholder="¿Qué buscas? (Palabras Clave)"> </input>
+            <input type="text" class="form-control field-button" placeholder="¿Qué ofreces? (Palabras Clave)"> </input>
+          </tab>
+          <tab heading="Ofrezco">
+            <input type="text" class="form-control field-button" placeholder="¿Qué ofreces? (Palabras Clave)"> </input>
+          </tab>
+        </tabset>
+        <textarea rows="5" name="descripcion" class="form-control field-button" placeholder="Explica un poco" />
+
+        <div class="botones">
+
+          <button type="button" class="btn btn-default btn-lg"><i class="glyphicon glyphicon-arrow-down icon-down" ng-click="isCollapsed = !isCollapsed"></i>Ahora</button>
+          <div collapse="isCollapsed">
+            <div class="date-pick">
+              <p class="input-group">
+                <input type="text" class="form-control" datepicker-popup="{{format}}" ng-model="dt" is-open="opened" min-date="minDate" datepicker-options="dateOptions" date-disabled="disabled(date, mode)" ng-required="true" close-text="Close" />
+                <span class="input-group-btn">
+                  <button type="button" class="btn btn-default" ng-click="open($event)"><i class="glyphicon glyphicon-calendar"></i>
+                  </button>
+                </span>
+              </p>
+            </div>
+          </div>
+          <button type="button" class="btn btn-default btn-lg"><i class="glyphicon glyphicon-arrow-down icon-down"></i> Cerca de mí</button>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 img-btn">
+            <img src="assets/images/help_btn.png" class="img-responsive center-block" alt="foto-perfil">
+            <br>
+            <p>Pulsa el botón para publicar</p>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <p>Watchoutfreedom |
+      <a href="https://twitter.com/HelpButtons">@HelpButtons</a> |
+      <a href="">Contact</a>
+    </p>
+  </div>
+</div>
+</footer>
