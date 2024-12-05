@@ -11,7 +11,7 @@
     "cookie-parser": "^1.4.4",
     "ejs": "^3.1.10",
     "errorhandler": "~1.0.0",
-    "express": "^4.21.0",
+    "express": "^4.21.2",
     "express-jwt": "^6.0.0",
     "express-session": "^1.16.2",
     "jsonwebtoken": "^9.0.0",
