@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "main": "server/app.js",
   "dependencies": {
-    "body-parser": "^1.20.3",
+    "body-parser": "^1.20.6",
     "bookshelf": "^0.13.3",
     "composable-middleware": "^0.3.0",
     "compression": "^1.8.1",
