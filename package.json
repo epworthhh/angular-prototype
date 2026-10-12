@@ -6,7 +6,7 @@
     "body-parser": "^1.20.6",
     "bookshelf": "^0.13.3",
     "composable-middleware": "^0.3.0",
-    "compression": "^1.8.1",
+    "compression": "^1.8.2",
     "connect-mongo": "^5.0.0",
     "cookie-parser": "^1.4.7",
     "ejs": "^3.1.10",
